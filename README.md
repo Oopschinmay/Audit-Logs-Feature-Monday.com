@@ -1,6 +1,6 @@
-# Workspace view app
+# Audit logs view app
 
-This sample app demonstrates how to use a workspace view in monday. It displays a list of boards in the current workspace. 
+View and analyze audit logs easily with this app. Access detailed logs of all user and system activity, track changes, and maintain security and compliance. Stay informed and in control of your organization's data and access permissions. 
 
 ## Install
 
