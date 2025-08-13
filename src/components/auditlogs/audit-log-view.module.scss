@@ -1,0 +1,136 @@
+.auditLogView {
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #f7fafd, #edf2f7);
+  min-height: 100vh;
+  animation: fadeIn 0.6s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.mainHeading {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  color: #1d3557;
+  border-bottom: 4px solid #a8dadc;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.error {
+  color: #e63946;
+  font-weight: 600;
+  background: #ffe5e5;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin: 12px 0;
+  border-left: 5px solid #e63946;
+}
+
+.noLogs {
+  font-style: italic;
+  color: #888;
+  font-size: 16px;
+}
+
+// NEW: For Non-Admin Users
+.unauthorized {
+  background: #fef3f2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  padding: 24px;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.workspaceContainer {
+  margin-top: 40px;
+}
+
+.workspaceSection {
+  margin-bottom: 40px;
+  background: #ffffff;
+  border: 1px solid #dde2e6;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.workspaceTitle {
+  font-size: 26px;
+  font-weight: 700;
+  color: #264653;
+  margin-bottom: 20px;
+  border-left: 8px solid #457b9d;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eventContainer {
+  margin-left: 20px;
+}
+
+.eventSection {
+  margin-bottom: 24px;
+}
+
+.eventTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  display: inline-block;
+  background: #a8dadc;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #1d3557;
+}
+
+.logList {
+  list-style: none;
+  padding: 0;
+}
+
+.logItem {
+  background: #f1f5f9;
+  margin-bottom: 12px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #e2e8f0;
+  }
+
+  .logText {
+    font-size: 15.5px;
+    line-height: 1.5;
+    color: #212529;
+  }
+
+  .logMeta {
+    font-size: 13px;
+    color: #6c757d;
+    margin-top: 8px;
+    font-style: italic;
+  }
+}

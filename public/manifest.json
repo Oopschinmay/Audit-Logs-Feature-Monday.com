@@ -1,0 +1,40 @@
+{
+  "platform": "browser",
+  "name": "Audit Log Viewer",
+  "slug": "audit-log-viewer",
+  "version": "1.0.0",
+  "author": "Advaiya Solutions",
+  "permissions": ["boards:read", "audit_logs:read"],
+  "admin_features": {
+    "views": [
+      {
+        "type": "admin",
+        "name": "Audit Log Viewer",
+        "url": "https://advaiya.monday.com", 
+        "height": 600,
+        "width": "full"
+      }
+    ]
+  },
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
