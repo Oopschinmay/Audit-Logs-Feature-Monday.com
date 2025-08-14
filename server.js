@@ -2,8 +2,8 @@ const express = require('express');
 const fetch = require('node-fetch');
 const cors = require('cors');
 
-const API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjQ2MTM4OTk2OCwiYWFpIjoxMDE4MTQsInVpZCI6NzI4MDgxNTAsImlhZCI6IjIwMjUtMDEtMjJUMTA6NTg6MjUuMDAwWiIsInBlciI6ImF1ZGl0OmFwaSIsImFjdGlkIjoyNjIwNTA2NiwicmduIjoiYXBzZTIifQ.7sHS4ahf8khgCk0pZG2FwGzoggJg3ROcuAaWSOqPKOE"; // Your actual token
-const DOMAIN = "advaiya";
+const API_TOKEN = ""; // Your actual token
+const DOMAIN = "";
 
 
 const app = express();
