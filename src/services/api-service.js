@@ -46,7 +46,7 @@ export const deleteBoard = async (boardId) => {
 };
 
 export const createItem = async (options = {}) => {
-  const { name = "test item", boardId = 3155518903 } = options;
+  const { name = "test item", boardId = 1234567 } = options;
   const response = await executeGraphQl(`
   mutation{
     create_item(item_name:"${name}",board_id:${boardId}){
